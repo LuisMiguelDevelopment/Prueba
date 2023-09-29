@@ -1,0 +1,33 @@
+
+.section1{
+    background-image: url(./img/zyro-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    padding: 50px;
+}
+
+.section1__button{
+    background-color: var(--rojo);
+    height: 70px;
+    width: 300px;
+    font-family: 'proxi';
+    font-size: 1.2rem;
+    border: none;
+}
+
+.section1__button:hover{
+    background-color: var(--blanco);
+    color: var(--rojo);
+}
+
+

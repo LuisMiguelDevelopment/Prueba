@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background: #202020;
+  color: white;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  color: white;
+}
+
+:root {
+ --rojo: #ef3634;
+ --gris: #1d1d1d;
+ --blanco: #ffffff;
+ --negro: #000000;
+ --grisClaro:#2D2D2D;
+}
+
+
+@font-face {
+  font-family: 'mont';
+  src: url(./assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: 'proxi';
+  src: url(./assets/fonts/proxi.otf);
+}
+
